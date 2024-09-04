@@ -1,0 +1,34 @@
+{
+  "transformer": {
+    "in_channels": 128,
+    "out_channels": 128,
+    "heads": 4,
+    "concat": true,
+    "dropout": 0.1,
+    "edge_dim": null
+  },
+  "gat": {
+    "in_channels": 128,
+    "out_channels": 128,
+    "heads": 4,
+    "concat": true,
+    "negative_slope": 0.2,
+    "dropout": 0.1,
+    "add_self_loops": true,
+    "edge_dim": null
+  },
+  "gat2": {
+    "in_channels": 128,
+    "out_channels": 128,
+    "heads": 4,
+    "concat": true,
+    "negative_slope": 0.2,
+    "dropout": 0.1,
+    "add_self_loops": true,
+    "edge_dim": null
+  },
+  "gin": {
+    "eps": 0,
+    "train_eps": true
+  }
+}
